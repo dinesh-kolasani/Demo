@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="HobbiesCollectionViewCell" id="gTV-IL-0wX" customClass="HobbiesCollectionViewCell" customModule="Demo" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="275" height="73"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="275" height="73"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HsS-Cb-LeR">
+                        <rect key="frame" x="0.0" y="44" width="275" height="29"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Uxs-Gp-jsc">
+                                <rect key="frame" x="0.0" y="1" width="275" height="27"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hobbies" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KWZ-z0-eTd">
+                                        <rect key="frame" x="114" y="1.5" width="47" height="23"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                        <color key="textColor" red="0.28235294119999998" green="0.28235294119999998" blue="0.28235294119999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tFA-Z7-kM2">
+                                        <rect key="frame" x="104" y="1.5" width="67" height="23"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="KWZ-z0-eTd" firstAttribute="top" secondItem="Uxs-Gp-jsc" secondAttribute="top" constant="1.5" id="1m5-Ij-xUn"/>
+                                    <constraint firstItem="tFA-Z7-kM2" firstAttribute="leading" secondItem="KWZ-z0-eTd" secondAttribute="leading" constant="-10" id="4gy-hi-gPK"/>
+                                    <constraint firstItem="tFA-Z7-kM2" firstAttribute="bottom" secondItem="KWZ-z0-eTd" secondAttribute="bottom" id="5lv-cV-wSp"/>
+                                    <constraint firstItem="tFA-Z7-kM2" firstAttribute="trailing" secondItem="KWZ-z0-eTd" secondAttribute="trailing" constant="10" id="BdZ-4z-TtO"/>
+                                    <constraint firstAttribute="bottom" secondItem="KWZ-z0-eTd" secondAttribute="bottom" constant="2.5" id="Ifz-yn-JHF"/>
+                                    <constraint firstItem="tFA-Z7-kM2" firstAttribute="top" secondItem="KWZ-z0-eTd" secondAttribute="top" id="Kcf-UA-Aqe"/>
+                                    <constraint firstItem="KWZ-z0-eTd" firstAttribute="centerX" secondItem="Uxs-Gp-jsc" secondAttribute="centerX" id="VGI-Eg-hBb"/>
+                                    <constraint firstAttribute="height" constant="27" id="bKl-X2-CPT"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Uxs-Gp-jsc" firstAttribute="centerX" secondItem="HsS-Cb-LeR" secondAttribute="centerX" id="1Am-Co-6d5"/>
+                            <constraint firstAttribute="trailing" secondItem="Uxs-Gp-jsc" secondAttribute="trailing" id="AzI-R4-g7c"/>
+                            <constraint firstItem="Uxs-Gp-jsc" firstAttribute="centerY" secondItem="HsS-Cb-LeR" secondAttribute="centerY" id="Fds-Oe-u61"/>
+                            <constraint firstItem="Uxs-Gp-jsc" firstAttribute="leading" secondItem="HsS-Cb-LeR" secondAttribute="leading" id="XSD-am-kjU"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="HsS-Cb-LeR" firstAttribute="leading" secondItem="ZTg-uK-7eu" secondAttribute="leading" id="AVf-tt-eym"/>
+                <constraint firstItem="ZTg-uK-7eu" firstAttribute="trailing" secondItem="HsS-Cb-LeR" secondAttribute="trailing" id="CGn-mf-vP1"/>
+                <constraint firstItem="ZTg-uK-7eu" firstAttribute="bottom" secondItem="HsS-Cb-LeR" secondAttribute="bottom" id="Iom-ch-vyn"/>
+                <constraint firstItem="ZTg-uK-7eu" firstAttribute="top" secondItem="HsS-Cb-LeR" secondAttribute="top" id="ToC-by-Gyf"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="275" height="73"/>
+            <connections>
+                <outlet property="BGview" destination="tFA-Z7-kM2" id="A8s-Wp-YV7"/>
+                <outlet property="hobbiesLbl" destination="KWZ-z0-eTd" id="TMl-6W-8gH"/>
+            </connections>
+            <point key="canvasLocation" x="300.72463768115944" y="97.433035714285708"/>
+        </collectionViewCell>
+    </objects>
+</document>
