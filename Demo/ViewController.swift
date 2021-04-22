@@ -16,6 +16,7 @@ class ViewController: UIViewController {
     
     // first commit in beta branch.
     //fixing bugs.
+    //creating conflict.
     
     override func viewDidLoad() {
         super.viewDidLoad()
